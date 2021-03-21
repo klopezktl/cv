@@ -17,17 +17,16 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
+  margin: 30px 0;
   font-size: 50px;
   color: #aedefc;
   font-family: 'Montserrat', sans-serif;
-  margin: 30px auto 10px;
 
 }
 
 h3 {
-  font-size: 22px;
   margin: 16px 0;
+  font-size: 22px;
   font-weight: bolder;
 }
 
@@ -39,64 +38,137 @@ p {
   margin: 1rem auto;
 }
 
-.bottom-container {
-  background-color: #f6f6f6;
-}
+/*-------------------- new */
 
-.company {
+.experience-company {
   text-align: left;
-  padding: 0;
+  padding: 0 10px;
 }
 
-.details {
+.experience-details {
   text-align: left;
   /* padding-left: 50px; */
-  padding: 0 0;
+  padding: 0 10px;
 }
 
-.education {
-  background-color: #ffe2e2;
-}
-
-/* .my-image-container {
-  padding-left: 40px;
-} */
-
-.title-page {
+.colored-section {
   background-color: #fb929e;
   position: relative;
-  padding-top: 100px;
-  padding-bottom:100px;
+  padding: 100px 150px;
 }
 
-.title-page .container {
-  position: relative;
-  border-top: 0;
-  text-align: center;
-  padding-bottom: 50px;
-
+.location {
+  color: #aedefc;
 }
 
-.introduction {
-  padding: 50px 150px;
-}
-
-.work-history {
-  padding: 50px 150px;
-  background-color: #ffe2e2;
-  /* padding: 50px 0; */
+.white-section {
+  padding: 100px 150px;
 }
 
 /* images */
+.image {
+  top: 0;
+  left: 0;
+  position:  relative;
+  margin-bottom: 100px;
+}
+
+.image .cat-image {
+  /* --float: right; */
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 100px;
+  right: 130px;
+  /* margin-top: 100px; */
+  z-index: 1;
+}
+
+.image .laptop-image {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 150px;
+}
+
 .my-image {
   border-radius: 50%;
   width: 250px;
   height: 250px;
 }
 
-.image .cat-image {
-  /*float: right;*/
-  position: relative;
+
+/* .laptop-image {
+  --float: right;
+  position: absolute;
   width: 300px;
   height: 300px;
+  margin-top: 100px;
+  z-index: 2;
+  top: 300px;
+  left: 400px;
+} */
+
+/* ----------------------------------end */
+
+/* .bottom-container {
+  background-color: #f6f6f6;
 }
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+} */
+
+/* .company {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.details {
+  text-align: left;
+  padding-left: 50px;
+  padding: 0 10px;
+} */
+
+/* .education {
+  background-color: #ffe2e2;
+} */
+
+/* .my-image-container {
+  padding-left: 40px;
+} */
+
+/* */
+/* .title-page {
+  background-color: #fb929e;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom:100px;
+} */
+
+/* .title-page .container {
+  position: relative;
+  border-top: 0;
+  text-align: center;
+  padding-bottom: 50px;
+
+} */
+
+/* .introduction {
+  padding: 50px 150px;
+} */
+/*
+.work-history {
+  padding: 50px 150px;
+  background-color: #ffe2e2;
+  padding: 50px 0;
+} */
+
+/* images */
+/*  */
+/*
+ */
