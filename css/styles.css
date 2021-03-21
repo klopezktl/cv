@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  margin: 0;
+  /* font-size: 40px; */
+  font-family: 'Varela Round', sans-serif;
+  background-color: #f6f6f6;
+
+  line-height: 2;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding-top: 40px;
+  font-size: 100px;
+  color: #aedefc;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 50px;
+  color: #aedefc;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px auto 10px;
+
+}
+
+h3 {
+  font-size: 22px;
+  margin: 16px 0;
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  margin: 1rem auto;
+}
+
+.bottom-container {
+  background-color: #f6f6f6;
+}
+
+.company {
+  text-align: left;
+  padding: 0;
+}
+
+.details {
+  text-align: left;
+  /* padding-left: 50px; */
+  padding: 0 0;
+}
+
+.education {
+  background-color: #ffe2e2;
+}
+
+/* .my-image-container {
+  padding-left: 40px;
+} */
+
+.title-page {
+  background-color: #fb929e;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom:100px;
+}
+
+.title-page .container {
+  position: relative;
+  border-top: 0;
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+
+.introduction {
+  padding: 50px 150px;
+}
+
+.work-history {
+  padding: 50px 150px;
+  background-color: #ffe2e2;
+  /* padding: 50px 0; */
+}
+
+/* images */
+.my-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.image .cat-image {
+  /*float: right;*/
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
